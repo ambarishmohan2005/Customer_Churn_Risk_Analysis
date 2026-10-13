@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# React / Node
+node_modules/
+frontend-react/node_modules/
+frontend-react/dist/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# Deployment
+.vercel/
+
+# OS
+.DS_Store
+Thumbs.db
